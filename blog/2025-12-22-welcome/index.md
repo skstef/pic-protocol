@@ -1,6 +1,6 @@
 ---
-slug: PIC Official Website
-title: PIC Official Website
+slug: Welcome to PIC
+title: Welcome to PIC
 authors: [nicolagallo]
 tags: [pic, authorization, security, ai-agents]
 ---
