@@ -99,11 +99,24 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Pages',
           items: [
             {
               label: 'Protocol',
               to: '/docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'Formal',
+          items: [
+            {
+              label: 'PoP vs PoC Proof',
+              to: 'https://zenodo.org/records/17833000',
+            },
+            {
+              label: 'Continuity Proof',
+              to: 'https://zenodo.org/records/17860199',
             },
           ],
         },
@@ -121,7 +134,8 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} PIC Protocol`,
+      copyright: `Copyright © ${new Date().getFullYear()} PIC Protocol <br>
+      <small>✧ Language & AI · written in English by the authors, polished with AI ✧</small>`,
     },
     prism: {
       theme: prismThemes.github,
