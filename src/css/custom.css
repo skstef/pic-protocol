@@ -1,1 +1,4 @@
+@import "tailwindcss";
 @import "./fonts/index.css";
+
+@custom-variant dark (&:is([data-theme="dark"] *));
