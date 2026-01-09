@@ -2,7 +2,7 @@ export const HeroSection = () => {
   return (
     <div
       id="tw-scope"
-      className="flex px-30 justify-center items-center max-h-206 overflow-hidden relative"
+      className="flex -mt-37 pt-40 px-30 justify-center items-center max-h-242 overflow-hidden relative"
     >
       <div className="p-20.75 rounded-full bg-white/25 border border-[#EDEDED] circle-shadow backdrop-blur-sm">
         <div className="p-24.25 rounded-full bg-white/50 border border-[#EDEDED] circle-shadow backdrop-blur-sm">
@@ -38,7 +38,7 @@ export const HeroSection = () => {
       </div>
 
       <img
-        className="absolute left-[50%] transform translate-x-[-50%] scale-[1.25] z-[-1] right-0 bottom-20 w-full"
+        className="absolute left-[50%] transform translate-x-[-50%]  z-[-1] right-0 bottom-0 w-full max-w-[1440px]"
         src="./img/chain.png"
         alt=""
       />

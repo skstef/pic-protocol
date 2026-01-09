@@ -20,6 +20,11 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 html,
 * {
   font-family: "Inter", sans-serif;
@@ -27,4 +32,8 @@ html,
 
 :root {
   --ifm-navbar-height: 4.75rem;
+}
+
+[data-theme="dark"] body {
+  background-color: #1f1f21;
 }
