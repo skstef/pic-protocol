@@ -38,7 +38,7 @@ export const HeroSection = () => {
       </div>
 
       <img
-        className="absolute left-[50%] transform translate-x-[-50%] max-w-500 w-360 -bottom-46 md:w-full md:bottom-0"
+        className="absolute left-[50%] scale-[1.2] 2xl:scale-[1] transform translate-x-[-50%] max-w-420 w-360 -bottom-46 md:w-full md:bottom-14 2xl:bottom-0"
         src="./img/chain.png"
         alt=""
       />
