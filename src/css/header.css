@@ -90,3 +90,23 @@
 .header-github-link svg {
   display: none;
 }
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 996px) {
+  .header-github-link {
+    display: none;
+  }
+
+  .navbar__toggle {
+    order: 2;
+    margin-right: 0;
+    width: 20px;
+    height: 20px;
+    transform: translate(3px, -8px);
+  }
+}
