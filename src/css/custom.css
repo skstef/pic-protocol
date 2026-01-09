@@ -15,3 +15,7 @@ html,
 * {
   font-family: "Inter", sans-serif;
 }
+
+:root {
+  --ifm-navbar-height: 4.75rem;
+}
