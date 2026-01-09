@@ -2,11 +2,11 @@ export const HeroSection = () => {
   return (
     <div
       id="tw-scope"
-      className="flex dark:bg-[#1a1a1c] -mt-70 pt-68 md:-mt-37 md:pt-40 px-6 xl:px-30 justify-center items-center max-h-219 md:max-h-242 overflow-hidden relative"
+      className="flex dark:bg-[#1a1a1c] -mt-70 pt-68 xl:-mt-37 xl:pt-40 px-6 xl:px-30 justify-center items-center max-h-219 xl:max-h-242 overflow-hidden relative"
     >
-      <div className="p-15 md:p-20.75 z-10 rounded-full bg-white/25 dark:bg-[#1A1A1C]/50 border border-[#EDEDED] dark:border-[#232323] circle-shadow backdrop-blur-sm">
-        <div className="p-17.5 md:p-24.25 rounded-full bg-white/50 dark:bg-[#1A1A1C]/50 border border-[#EDEDED] dark:border-[#232323] circle-shadow backdrop-blur-sm">
-          <div className="px-30 md:px-0 w-147.5 md:w-203 aspect-square rounded-full border border-[#EDEDED] dark:border-[#232323] bg-white dark:bg-[#1A1A1C] circle-shadow flex flex-col items-center justify-center">
+      <div className="p-15 xl:p-20.75 z-10 rounded-full bg-white/25 dark:bg-[#1A1A1C]/50 border border-[#EDEDED] dark:border-[#232323] circle-shadow backdrop-blur-sm">
+        <div className="p-17.5 xl:p-24.25 rounded-full bg-white/50 dark:bg-[#1A1A1C]/50 border border-[#EDEDED] dark:border-[#232323] circle-shadow backdrop-blur-sm">
+          <div className="px-30 xl:px-0 w-147.5 xl:w-203 aspect-square rounded-full border border-[#EDEDED] dark:border-[#232323] bg-white dark:bg-[#1A1A1C] circle-shadow flex flex-col items-center justify-center">
             <h1 className="text-[#00543D] dark:text-white tracking-widest text-center text-xs font-semibold uppercase leading-3">
               Lorem Heading
             </h1>
