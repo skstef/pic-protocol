@@ -7,25 +7,25 @@ export const HeroSection = () => {
             <h1 className="text-[#00543D] tracking-widest text-center text-xs font-semibold uppercase leading-3">
               Lorem Heading
             </h1>
-            <h2 className="text-black text-center text-[64px] font-medium leading-16 mt-0 max-w-140">
+            <h2 className="text-black tracking-[-1.28px] font-[Clash_Grotesk]! text-center text-[64px] font-medium leading-16 mt-1 max-w-140">
               Provenance Identity Continuity
             </h2>
-            <p className="text-black/50 text-center text-base font-normal leading-6 mt-6 max-w-137.5">
+            <p className="text-black/50 tracking-[-0.32px] text-center text-base font-normal leading-6 mt-4 max-w-137.5">
               Lorem ipsum dolor sit amet consectetur. Iaculis lacus aenean amet
               lectus tempus et id vulputate. At diam facilisis lorem ipsum augue
               pretium mi.
             </p>
 
-            <div className="flex gap-4 mt-6">
+            <div className="flex gap-4 mt-8">
               <a
                 href="#"
-                className="py-3.5 cursor-pointer px-6 hover:bg-[#004130] bg-[#00543D] rounded-full text-white hover:text-white/90 text-base font-semibold"
+                className="pt-3 pb-3 leading-normal tracking-[-0.48px] cursor-pointer px-6 hover:bg-[#004130] bg-[#00543D] rounded-full text-white hover:text-white/90 text-base font-semibold"
               >
                 Get Started
               </a>
               <a
                 href="#"
-                className="py-3.5 cursor-pointer px-6 border hover:border-[#EDEDED]/75 border-[#EDEDED] rounded-full text-black hover:text-black/60 text-base font-semibold"
+                className="pt-3 pb-3 leading-normal tracking-[-0.48px] cursor-pointer px-6 border hover:border-[#EDEDED]/75 border-[#EDEDED] rounded-full text-black hover:text-black/60 text-base font-semibold"
               >
                 Learn More
               </a>
