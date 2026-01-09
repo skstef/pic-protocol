@@ -109,4 +109,9 @@
     height: 20px;
     transform: translate(3px, -8px);
   }
+
+  .navbar-sidebar__close svg {
+    width: 15px;
+    height: 15px;
+  }
 }
