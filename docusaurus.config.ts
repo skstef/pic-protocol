@@ -95,54 +95,12 @@ const config: Config = {
         },
       ],
     },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Pages",
-          items: [
-            {
-              label: "Protocol",
-              to: "/docs/intro",
-            },
-          ],
-        },
-        {
-          title: "Formal",
-          items: [
-            {
-              label: "PoP vs PoC Proof",
-              to: "https://zenodo.org/records/17833000",
-            },
-            {
-              label: "Continuity Proof",
-              to: "https://zenodo.org/records/17860199",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/pic-protocol",
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} PIC Protocol <br>
-      <small>✧ Language & AI · written in English by the authors, polished with AI ✧</small>`,
-    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    plugins: ["./src/plugins/tailwind-config.js"],
   } satisfies Preset.ThemeConfig,
+  plugins: ["./src/plugins/tailwind-config.js"],
 };
 
 export default config;

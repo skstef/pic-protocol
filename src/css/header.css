@@ -1,0 +1,35 @@
+.theme-layout-navbar {
+  padding: 0 120px;
+}
+
+.navbar__items {
+  display: flex;
+}
+
+.navbar__brand {
+  margin-right: auto;
+}
+
+.navbar__link:last-child {
+  margin-left: 25px;
+  margin-right: auto;
+}
+
+.navbar--fixed-top {
+  position: relative;
+}
+
+.navbar {
+  background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.navbar__inner,
+.navbar__items {
+  background-color: transparent !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}

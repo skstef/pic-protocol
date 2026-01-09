@@ -1,0 +1,44 @@
+export const HeroSection = () => {
+  return (
+    <div className="flex px-30 justify-center items-center max-h-206 overflow-hidden relative">
+      <div className="p-20.75 rounded-full bg-white/25 border border-[#EDEDED] circle-shadow backdrop-blur-sm">
+        <div className="p-24.25 rounded-full bg-white/50 border border-[#EDEDED] circle-shadow backdrop-blur-sm">
+          <div className="w-203 h-203 rounded-full border border-[#EDEDED] bg-white circle-shadow flex flex-col items-center justify-center">
+            <h1 className="text-[#00543D] tracking-widest text-center text-xs font-semibold uppercase leading-3">
+              Lorem Heading
+            </h1>
+            <h2 className="text-black text-center text-[64px] font-medium leading-16 mt-0 max-w-140">
+              Provenance Identity Continuity
+            </h2>
+            <p className="text-black/50 text-center text-base font-normal leading-6 mt-6 max-w-137.5">
+              Lorem ipsum dolor sit amet consectetur. Iaculis lacus aenean amet
+              lectus tempus et id vulputate. At diam facilisis lorem ipsum augue
+              pretium mi.
+            </p>
+
+            <div className="flex gap-4 mt-6">
+              <a
+                href="#"
+                className="py-3.5 cursor-pointer px-6 hover:bg-[#004130] bg-[#00543D] rounded-full text-white hover:text-white/90 text-base font-semibold"
+              >
+                Get Started
+              </a>
+              <a
+                href="#"
+                className="py-3.5 cursor-pointer px-6 border hover:border-[#EDEDED]/75 border-[#EDEDED] rounded-full text-black hover:text-black/60 text-base font-semibold"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        className="absolute left-[50%] transform translate-x-[-50%] scale-[1.25] z-[-1] right-0 bottom-20 w-full"
+        src="./img/chain.png"
+        alt=""
+      />
+    </div>
+  );
+};

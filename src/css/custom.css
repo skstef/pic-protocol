@@ -1,4 +1,12 @@
 @import "tailwindcss";
 @import "./fonts/index.css";
 
+/* Component overrites */
+@import "./header.css";
+@import "./hero.css";
+
 @custom-variant dark (&:is([data-theme="dark"] *));
+
+html {
+  overflow-x: hidden;
+}
