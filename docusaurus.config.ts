@@ -92,6 +92,8 @@ const config: Config = {
           href: "https://github.com/pic-protocol",
           label: "GitHub",
           position: "right",
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
         },
       ],
     },

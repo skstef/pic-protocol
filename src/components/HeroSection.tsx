@@ -1,6 +1,9 @@
 export const HeroSection = () => {
   return (
-    <div className="flex px-30 justify-center items-center max-h-206 overflow-hidden relative">
+    <div
+      id="tw-scope"
+      className="flex px-30 justify-center items-center max-h-206 overflow-hidden relative"
+    >
       <div className="p-20.75 rounded-full bg-white/25 border border-[#EDEDED] circle-shadow backdrop-blur-sm">
         <div className="p-24.25 rounded-full bg-white/50 border border-[#EDEDED] circle-shadow backdrop-blur-sm">
           <div className="w-203 h-203 rounded-full border border-[#EDEDED] bg-white circle-shadow flex flex-col items-center justify-center">
@@ -19,13 +22,13 @@ export const HeroSection = () => {
             <div className="flex gap-4 mt-8">
               <a
                 href="#"
-                className="pt-3 pb-3 leading-normal tracking-[-0.48px] cursor-pointer px-6 hover:bg-[#004130] bg-[#00543D] rounded-full text-white hover:text-white/90 text-base font-semibold"
+                className="pt-3.5 pb-3 leading-normal tracking-[-0.48px] cursor-pointer px-6 hover:bg-[#004130] bg-[#00543D] rounded-full text-white hover:text-white/90 text-base font-semibold"
               >
                 Get Started
               </a>
               <a
                 href="#"
-                className="pt-3 pb-3 leading-normal tracking-[-0.48px] cursor-pointer px-6 border hover:border-[#EDEDED]/75 border-[#EDEDED] rounded-full text-black hover:text-black/60 text-base font-semibold"
+                className="pt-3.5 pb-3 leading-normal tracking-[-0.48px] cursor-pointer px-6 border hover:border-[#EDEDED]/75 border-[#EDEDED] rounded-full text-black hover:text-black/60 text-base font-semibold"
               >
                 Learn More
               </a>
