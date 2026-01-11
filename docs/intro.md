@@ -29,6 +29,7 @@ Old: "Do you have a valid token?"
 New: "Can you prove you can continue this chain?"
 
 With PIC:
+
 - Authority is bound to the origin
 - No service can use its own elevated permissions on behalf of a user
 - If it's not in the user's authority, it doesn't exist in that transaction
@@ -60,9 +61,7 @@ Governance and Auditing integrate at each step of the execution flow as a PIC ex
 
 ## Get Started
 
-- Read the [PIC Specification](/docs/spec)
 - Explore the [formal proofs](https://zenodo.org/records/17833000)
-- See [examples](/docs/examples)
 
 ---
 
