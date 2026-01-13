@@ -1,0 +1,52 @@
+const ITEMS = [
+  {
+    title: "Provenance",
+    description:
+      "The causal chain is always traceable and auditable. From Origin to end, unbroken. If it breaks, it stops.",
+    imageURL: "/img/trio/provenance.png",
+  },
+  {
+    title: "Identity",
+    description:
+      "The origin identity is immutable. It generates authority. It cannot change throughout the chain.",
+    imageURL: "/img/trio/identity.png",
+  },
+  {
+    title: "Continuity",
+    description:
+      "Continuity is proven at every step. Proof of Continuity replaces Proof of Possession. Authority can only shrink.",
+    imageURL: "/img/trio/continuity.png",
+  },
+];
+
+export const TrioSection = () => {
+  return (
+    <div
+      id="tw-scope"
+      className="pt-17 pb-20 lg:py-40 px-6 xl:px-24 dark:bg-[#1F1F21]"
+    >
+      <div className="max-w-360 mx-auto grid gap-y-12 grid-cols-1 lg:grid-cols-3">
+        {ITEMS.map((item) => (
+          <div
+            key={item.title}
+            className="flex flex-col items-center text-center px-1 lg:px-6.5"
+          >
+            <div className="bg-[#00543D]/5 md:p-4.5 lg:p-0 dark:bg-white/5 rounded-full mb-10 md:mb-14 aspect-square flex items-center justify-center">
+              <img
+                src={item.imageURL}
+                alt={item.title}
+                className="h-59 w-59 lg:w-70 lg:h-70 mb-6"
+              />
+            </div>
+            <h3 className="text-black dark:text-white font-[Clash_Grotesk]! tracking-[-0.32px] text-2xl font-medium leading-6 mb-4">
+              {item.title}
+            </h3>
+            <p className="text-[#9C9C9C] dark:text-white/50 tracking-[-0.32px] text-base font-normal leading-6 max-w-[380px]">
+              {item.description}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};

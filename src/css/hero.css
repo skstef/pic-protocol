@@ -1,0 +1,7 @@
+.circle-shadow {
+  box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="dark"] .circle-shadow {
+  box-shadow: 0 24px 48px 0 rgba(255, 255, 255, 0.04);
+}
