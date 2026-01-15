@@ -56,7 +56,7 @@ export default function ColorModeToggle(): JSX.Element {
       id="tw-scope"
       className={clsx(
         `rounded-full flex bg-white dark:bg-[#262628] border border-[#EDEDED] dark:border-[#3C3C3E]`,
-        `relative h-7.5 w-14.5 justify-between p-1 hidden min-[996px]:flex`
+        `relative h-7.5 w-14.5 justify-between p-1 flex`
       )}
     >
       {/* Sliding knob */}
