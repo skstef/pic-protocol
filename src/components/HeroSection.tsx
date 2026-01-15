@@ -10,10 +10,10 @@ export const HeroSection = () => {
             <h1 className="text-[#00543D] dark:text-white tracking-widest text-center text-xs font-semibold uppercase leading-3">
               Lorem Heading
             </h1>
-            <h2 className="text-black dark:text-white tracking-[-1.28px] font-[Clash_Grotesk]! text-center text-5xl md:text-[64px] font-medium leading-[1.05] mt-1 max-w-140">
+            <h2 className="text-black dark:text-white tracking-[-1.28px] text-center text-5xl md:text-[64px] font-medium leading-[1.05] mt-1 max-w-140">
               Provenance Identity Continuity
             </h2>
-            <p className="text-black/50 dark:text-white/50 tracking-[-0.32px] text-center text-sm md:text-base font-normal leading-[1.5] mt-4 max-w-137.5">
+            <p className="text-black/50 dark:text-white/50 tracking-[-0.28px] text-center text-sm md:text-base font-normal leading-[1.5] mt-4 max-w-137.5">
               Lorem ipsum dolor sit amet consectetur. Iaculis lacus aenean amet
               lectus tempus et id vulputate. At diam facilisis lorem ipsum augue
               pretium mi.

@@ -23,25 +23,25 @@ export const TrioSection = () => {
   return (
     <div
       id="tw-scope"
-      className="pt-17 pb-20 lg:py-40 px-6 xl:px-24 dark:bg-[#1F1F21]"
+      className="pt-12 pb-20 lg:py-30 px-6 xl:px-24 dark:bg-[#1F1F21]"
     >
-      <div className="max-w-360 mx-auto grid gap-y-12 grid-cols-1 lg:grid-cols-3">
+      <div className="max-w-300 mx-auto grid gap-x-6 gap-y-6 md:gap-y-12 grid-cols-1 lg:grid-cols-3">
         {ITEMS.map((item) => (
           <div
             key={item.title}
-            className="flex flex-col items-center text-center px-1 lg:px-6.5"
+            className="flex mx-auto w-full lg:mx-0 bg-[#FAFAFA] dark:bg-[#212123] max-w-120 lg:max-w-[384px] flex-col  rounded-4xl items-center text-center pt-2 pb-6 px-2"
           >
-            <div className="bg-[#00543D]/5 md:p-4.5 lg:p-0 dark:bg-white/5 rounded-full mb-10 md:mb-14 aspect-square flex items-center justify-center">
+            <div className="bg-[#FFFFFF] dark:bg-[#1F1F21] w-full flex items-center justify-center rounded-3xl mb-10 aspect-square">
               <img
                 src={item.imageURL}
                 alt={item.title}
-                className="h-59 w-59 lg:w-70 lg:h-70 mb-6"
+                className="h-full w-full lg:w-84 lg:h-84 object-contain"
               />
             </div>
-            <h3 className="text-black dark:text-white font-[Clash_Grotesk]! tracking-[-0.32px] text-2xl font-medium leading-6 mb-4">
+            <h3 className="text-black dark:text-white tracking-[-0.64px] text-[32px] font-medium leading-none mb-4">
               {item.title}
             </h3>
-            <p className="text-[#9C9C9C] dark:text-white/50 tracking-[-0.32px] text-base font-normal leading-6 max-w-[380px]">
+            <p className="text-[#9C9C9C] px-4 dark:text-white/50 leading-normal tracking-[-0.36px] text-[18px] font-normal max-w-84">
               {item.description}
             </p>
           </div>
