@@ -115,3 +115,9 @@
     height: 15px;
   }
 }
+
+@media (max-width: 996px) {
+  .theme-layout-navbar-right {
+    display: none;
+  }
+}
