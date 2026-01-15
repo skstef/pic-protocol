@@ -3,19 +3,19 @@ const ITEMS = [
     title: "Provenance",
     description:
       "The causal chain is always traceable and auditable. From Origin to end, unbroken. If it breaks, it stops.",
-    imageURL: "/img/trio/provenance.png",
+    imageURL: "/img/trio/provenance.webp",
   },
   {
     title: "Identity",
     description:
       "The origin identity is immutable. It generates authority. It cannot change throughout the chain.",
-    imageURL: "/img/trio/identity.png",
+    imageURL: "/img/trio/identity.webp",
   },
   {
     title: "Continuity",
     description:
       "Continuity is proven at every step. Proof of Continuity replaces Proof of Possession. Authority can only shrink.",
-    imageURL: "/img/trio/continuity.png",
+    imageURL: "/img/trio/continuity.webp",
   },
 ];
 
