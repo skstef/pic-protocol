@@ -10,7 +10,7 @@ export const HeroSection = () => {
             <div className="p-17.5 xl:p-24.25 rounded-full bg-white/50 dark:bg-[#1A1A1C]/50 border border-[#EDEDED] dark:border-[#232323] circle-shadow backdrop-blur-sm">
               <div className="px-40 min-[340px]:px-35 min-[380px]:px-30 xl:px-0 w-147.5 xl:w-203 aspect-square rounded-full border border-[#EDEDED] dark:border-[#232323] bg-white dark:bg-[#1A1A1C] circle-shadow flex flex-col items-center justify-center">
                 <h1 className="text-[#00543D] dark:text-white tracking-widest text-center text-xs font-semibold uppercase leading-3">
-                  A FORMAL AUTHORIZATION MODEL
+                  A FORMAL AUTHORITY MODEL
                 </h1>
                 <h2 className="text-black dark:text-white tracking-[-1.28px] text-center text-5xl md:text-[64px] font-medium leading-[1.05] mt-1 max-w-140">
                   Provenance Identity Continuity
@@ -18,7 +18,7 @@ export const HeroSection = () => {
                 <p className="text-black/50 dark:text-white/50 tracking-[-0.28px] text-center text-sm md:text-base font-normal leading-[1.5] mt-4 max-w-137.5">
                   Authority is a continuous system.
                   Continuity is proven by relationship, not possession.
-                  A new ontology backed by a formal proof.
+                  PIC introduces a new authority ontology, formally proven.
                 </p>
 
                 <div className="flex flex-col justify-center md:flex-row gap-4 mt-8 max-w-full w-full">
