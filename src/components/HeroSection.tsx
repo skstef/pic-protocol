@@ -1,3 +1,5 @@
+import Link from "@docusaurus/Link";
+
 export const HeroSection = () => {
   return (
     <div className="flex dark:bg-[#1a1a1c]">
@@ -15,25 +17,25 @@ export const HeroSection = () => {
                 <h2 className="text-black dark:text-white tracking-[-1.28px] text-center text-5xl md:text-[64px] font-medium leading-[1.05] mt-1 max-w-140">
                   Provenance Identity Continuity
                 </h2>
-                <p className="text-black/50 dark:text-white/50 tracking-[-0.28px] text-center text-sm md:text-base font-normal leading-[1.5] mt-4 max-w-137.5">
-                  Authority is a continuous system.
-                  Continuity is proven by relationship, not possession.
-                  PIC introduces a new authority ontology, formally proven.
+                <p className="text-black/50 dark:text-white/50 tracking-[-0.28px] text-center text-sm md:text-base font-light leading-[1.5] mt-4 max-w-137.5">
+                  Authority is a continuous system. Continuity is proven by
+                  relationship, not possession. PIC introduces a new authority
+                  ontology, formally proven.
                 </p>
 
                 <div className="flex flex-col justify-center md:flex-row gap-4 mt-8 max-w-full w-full">
-                  <a
-                    href="#"
+                  <Link
+                    href="/docs/protocol"
                     className="pt-3.5 pb-3 text-center md:text-start leading-normal tracking-[-0.48px] cursor-pointer px-6 hover:bg-[#004130] bg-[#00543D] rounded-full text-white hover:text-white/90 text-base font-semibold"
                   >
                     Protocol
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    href="/docs/spec"
                     className="pt-3.5 pb-3 text-center md:text-start leading-normal dark:bg-white dark:hover:bg-white/80 dark:hover:text-black/80 dark:text-black tracking-[-0.48px] cursor-pointer px-6 border hover:border-[#EDEDED]/75 border-[#EDEDED] rounded-full text-black hover:text-black/60 text-base font-semibold"
                   >
-                    Blog
-                  </a>
+                    Spec
+                  </Link>
                 </div>
               </div>
             </div>

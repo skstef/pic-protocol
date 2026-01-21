@@ -37,8 +37,7 @@
   margin-right: auto;
 }
 
-.navbar__link:last-child {
-  margin-left: 25px;
+.theme-layout-navbar-left > .navbar__link:last-child {
   margin-right: auto;
 }
 

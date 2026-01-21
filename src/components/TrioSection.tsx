@@ -23,7 +23,7 @@ export const TrioSection = () => {
   return (
     <div
       id="tw-scope"
-      className="pt-12 pb-20 lg:py-30 px-6 xl:px-24 dark:bg-[#1F1F21]"
+      className="pt-12 lg:pt-30 px-6 xl:px-24 dark:bg-[#1F1F21]"
     >
       <div className="max-w-300 mx-auto grid gap-x-6 gap-y-6 md:gap-y-12 grid-cols-1 lg:grid-cols-3">
         {ITEMS.map((item) => (
@@ -38,10 +38,10 @@ export const TrioSection = () => {
                 className="h-full w-full lg:w-84 lg:h-84 object-contain"
               />
             </div>
-            <h3 className="text-black dark:text-white tracking-[-0.64px] text-[32px] font-medium leading-none mb-4">
+            <h3 className="text-black font-[Clash_Grotesk]! dark:text-white tracking-[-0.64px] text-[32px] font-medium leading-none mb-4">
               {item.title}
             </h3>
-            <p className="text-[#9C9C9C] px-4 dark:text-white/50 leading-normal tracking-[-0.36px] text-[18px] font-normal max-w-84">
+            <p className="text-[#9C9C9C] font-light px-4 dark:text-white/50 leading-normal tracking-[-0.36px] text-[18px] max-w-84">
               {item.description}
             </p>
           </div>
