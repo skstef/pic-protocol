@@ -80,10 +80,19 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          position: "left",
+          label: "Ontology",
+          to: "/docs/ontology",
+        },
+        {
           position: "left",
           label: "Protocol",
+          to: "/docs/protocol",
+        },
+        {
+          position: "left",
+          label: "Spec",
+          to: "/docs/spec",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
