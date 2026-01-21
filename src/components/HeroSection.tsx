@@ -2,12 +2,17 @@ import Link from "@docusaurus/Link";
 
 export const HeroSection = () => {
   return (
-    <div className="flex dark:bg-[#1a1a1c]">
-      <div className="relative overflow-hidden pt-px xl:max-w-468 w-full xl:mx-auto">
+    <div className="flex dark:bg-[#1a1a1c] w-screen!">
+      <div className="relative  pt-px xl:max-w-468 w-full xl:mx-auto">
         <div
           id="tw-scope"
-          className="mx-auto flex dark:bg-[#1a1a1c] -mt-70 pt-68 xl:-mt-37 xl:pt-40 px-6 xl:px-30 justify-center items-center max-h-219 xl:max-h-242 relative overflow-hidden"
+          className="mx-auto flex dark:bg-[#1a1a1c] -mt-70 pt-68 xl:-mt-37 xl:pt-40 px-6 xl:px-30 justify-center items-center max-h-219 xl:max-h-242 relative overflow-hidden!"
         >
+          <img
+            className="absolute left-[50%] scale-[1.2] min-[1440px]:scale-[1.1] transform translate-x-[-50%] md:w-full 2xl:w-420 -bottom-40 md:bottom-14 2xl:bottom-0"
+            src="./img/chain.png"
+            alt=""
+          />
           <div className="p-15 z-60! xl:p-20.75 rounded-full bg-white/25 dark:bg-[#1A1A1C]/50 border border-[#EDEDED] dark:border-[#232323] circle-shadow backdrop-blur-sm">
             <div className="p-17.5 xl:p-24.25 rounded-full bg-white/50 dark:bg-[#1A1A1C]/50 border border-[#EDEDED] dark:border-[#232323] circle-shadow backdrop-blur-sm">
               <div className="px-40 min-[340px]:px-35 min-[380px]:px-30 xl:px-0 w-147.5 xl:w-203 aspect-square rounded-full border border-[#EDEDED] dark:border-[#232323] bg-white dark:bg-[#1A1A1C] circle-shadow flex flex-col items-center justify-center">
@@ -41,11 +46,7 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
-        <img
-          className="absolute left-[50%] scale-[1.2] min-[1440px]:scale-[1.1] transform translate-x-[-50%] md:w-full 2xl:w-420 -bottom-40 md:bottom-14 2xl:bottom-0"
-          src="./img/chain.png"
-          alt=""
-        />
+
         {/* Bottom */}
         <div
           className="

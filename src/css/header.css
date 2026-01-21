@@ -41,6 +41,10 @@
   margin-right: auto;
 }
 
+.theme-layout-navbar-right {
+  margin-left: -92px;
+}
+
 .navbar--fixed-top {
   position: relative;
 }
