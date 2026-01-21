@@ -17,7 +17,7 @@ export const HeroSection = () => {
                 <h2 className="text-black dark:text-white tracking-[-1.28px] text-center text-5xl md:text-[64px] font-medium leading-[1.05] mt-1 max-w-140">
                   Provenance Identity Continuity
                 </h2>
-                <p className="text-black/50 dark:text-white/50 tracking-[-0.28px] text-center text-sm md:text-base font-normal leading-[1.5] mt-4 max-w-137.5">
+                <p className="text-black/50 dark:text-white/50 tracking-[-0.28px] text-center text-sm md:text-base font-light leading-[1.5] mt-4 max-w-137.5">
                   Authority is a continuous system. Continuity is proven by
                   relationship, not possession. PIC introduces a new authority
                   ontology, formally proven.

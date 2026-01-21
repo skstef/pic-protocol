@@ -38,10 +38,10 @@ export const TrioSection = () => {
                 className="h-full w-full lg:w-84 lg:h-84 object-contain"
               />
             </div>
-            <h3 className="text-black dark:text-white tracking-[-0.64px] text-[32px] font-medium leading-none mb-4">
+            <h3 className="text-black font-[Clash_Grotesk]! dark:text-white tracking-[-0.64px] text-[32px] font-medium leading-none mb-4">
               {item.title}
             </h3>
-            <p className="text-[#9C9C9C] px-4 dark:text-white/50 leading-normal tracking-[-0.36px] text-[18px] font-normal max-w-84">
+            <p className="text-[#9C9C9C] font-light px-4 dark:text-white/50 leading-normal tracking-[-0.36px] text-[18px] max-w-84">
               {item.description}
             </p>
           </div>
