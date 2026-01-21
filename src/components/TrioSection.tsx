@@ -23,7 +23,7 @@ export const TrioSection = () => {
   return (
     <div
       id="tw-scope"
-      className="pt-12 pb-20 lg:py-30 px-6 xl:px-24 dark:bg-[#1F1F21]"
+      className="pt-12 lg:pt-30 px-6 xl:px-24 dark:bg-[#1F1F21]"
     >
       <div className="max-w-300 mx-auto grid gap-x-6 gap-y-6 md:gap-y-12 grid-cols-1 lg:grid-cols-3">
         {ITEMS.map((item) => (
