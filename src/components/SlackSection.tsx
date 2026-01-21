@@ -4,7 +4,7 @@ export const SlackSection = () => {
   return (
     <div
       id="tw-scope"
-      className="pt-18 pb-6 md:pt-12 md:pb-20 lg:pt-60 lg:pb-30 px-6 xl:px-30 dark:bg-[#1F1F21]"
+      className="pt-18 pb-6 md:pt-12 md:pb-20 lg:pt-30 lg:pb-30 px-6 xl:px-30 dark:bg-[#1F1F21]"
     >
       <div className="max-w-300 mx-auto w-full bg-[#00543D] rounded-4xl p-12 md:p-16 md:py-15 grid grid-cols-1 md:grid-cols-12 gap-x-16 justify-between items-center overflow-hidden">
         <div className="flex flex-col col-span-1 md:col-span-7">

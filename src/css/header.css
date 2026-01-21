@@ -29,6 +29,10 @@
   width: 100%;
 }
 
+.docs-wrapper .navbar {
+  max-width: 100%;
+}
+
 .navbar__items {
   display: flex;
 }

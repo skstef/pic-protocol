@@ -2,39 +2,36 @@ import Logo from "../../static/img/logo.svg";
 
 const IS_FOOTER_NAV_ENABLED = true;
 
-const NAV_SECTIONS = [
+const NAV_SECTIONS: (
+  | {
+      title: string;
+      href?: string;
+      links: {
+        title: string;
+        href: string;
+      }[];
+    }
+  | {
+      title: string;
+      href?: string;
+      links?: undefined;
+    }
+)[] = [
   {
-    title: "Learn",
+    title: "Useful Links",
     links: [
-      { title: "Introduction", href: "/docs/introduction" },
-      { title: "Installation", href: "/docs/installation" },
-      { title: "Migration", href: "/docs/migration" },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      { title: "Stack Overflow", href: "/community/stack-overflow" },
-      { title: "Feature Requests", href: "/community/feature-requests" },
-      { title: "Discord", href: "/community/discord" },
-      { title: "Help", href: "/community/help" },
-    ],
-  },
-  {
-    title: "More",
-    links: [
-      { title: "Blog", href: "/blog" },
-      { title: "Changelog", href: "/changelog" },
-      { title: "GitHub", href: "https://github.com" },
-      { title: "X", href: "https://x.com" },
-    ],
-  },
-  {
-    title: "Legal",
-    links: [
-      { title: "Privacy", href: "/legal/privacy" },
-      { title: "Terms", href: "/legal/terms" },
-      { title: "Cookie Policy", href: "/legal/cookie-policy" },
+      {
+        title: "Protocol",
+        href: "/docs/ontology",
+      },
+      {
+        title: "Spec",
+        href: "/docs/ontology",
+      },
+      {
+        title: "Blog",
+        href: "/docs/ontology",
+      },
     ],
   },
 ];
@@ -54,24 +51,35 @@ export const Footer = () => {
                   key={navSection.title}
                   className="md:col-span-3 leading-none col-span-6 flex flex-col gap-y-4"
                 >
-                  <h3 className="text-black dark:text-white text-[18px] font-semibold leading-[1.2] tracking-[-0.36px]">
-                    {navSection.title}
-                  </h3>
+                  {navSection.href ? (
+                    <a
+                      className="text-black dark:text-white text-[18px] font-semibold leading-[1.2] tracking-[-0.36px]"
+                      href={navSection.href}
+                    >
+                      {navSection.title}
+                    </a>
+                  ) : (
+                    <h3 className="text-black dark:text-white text-[18px] font-semibold leading-[1.2] tracking-[-0.36px]">
+                      {navSection.title}
+                    </h3>
+                  )}
 
-                  <nav>
-                    <ul className="flex flex-col gap-y-4">
-                      {navSection.links.map((nestedLink) => (
-                        <li className="leading-none" key={nestedLink.title}>
-                          <a
-                            className="text-black dark:text-white text-[18px] font-normal leading-[1.2] tracking-[-0.36px]"
-                            href={nestedLink.href}
-                          >
-                            {nestedLink.title}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </nav>
+                  {navSection.links ? (
+                    <nav>
+                      <ul className="flex flex-col gap-y-4">
+                        {navSection.links.map((nestedLink) => (
+                          <li className="leading-none" key={nestedLink.title}>
+                            <a
+                              className="text-black dark:text-white text-[18px] font-normal leading-[1.2] tracking-[-0.36px]"
+                              href={nestedLink.href}
+                            >
+                              {nestedLink.title}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </nav>
+                  ) : null}
                 </li>
               ))}
             </ul>
