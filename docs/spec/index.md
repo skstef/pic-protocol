@@ -8,9 +8,6 @@ This section provides the authoritative technical rules.
 
 The specification defines precise requirements that implementations MUST follow.
 
-## Contents
-
-- [Data Structures](./data-structures.md)
-- [Validation Rules](./validation-rules.md)
+## Content
 
 This section focuses on _how things must be built_.

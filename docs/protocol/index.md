@@ -11,7 +11,4 @@ between participants.
 
 ## Contents
 
-- [Message Types](./message-types.md)
-- [Interaction Flow](./interaction-flow.md)
-
 The protocol focuses on _how things interact_.

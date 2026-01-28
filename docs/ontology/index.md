@@ -11,7 +11,4 @@ across protocols and specifications.
 
 ## Contents
 
-- [Core Concepts](./core-concepts.md)
-- [Relationships](./relationships.md)
-
 The ontology focuses on _what things are_, not how they are implemented.
