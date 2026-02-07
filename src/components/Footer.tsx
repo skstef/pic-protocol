@@ -18,7 +18,7 @@ const NAV_SECTIONS: (
     }
 )[] = [
   {
-    title: "Ontology",
+    title: "Principles",
     links: [
       {
         title: "Ontology",
