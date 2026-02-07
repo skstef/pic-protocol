@@ -124,6 +124,10 @@ export const Footer = () => {
         </div>
         <p className="text-black/50 dark:text-white/50 leading-[1.2] tracking-[-0.36px] text-[18px] text-center">
           Copyright © 2026 Provenance Identity Continuity Protocol
+          <br />
+          <small>
+          ✧ Language & AI · written in English by the authors, polished with AI ✧
+          </small>
         </p>
       </div>
     </footer>
