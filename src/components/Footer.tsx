@@ -39,7 +39,7 @@ const NAV_SECTIONS: (
     links: [
       {
         title: "Spec",
-        href: "/docs/spec",
+        href: "/docs/specification",
       }
     ],
   },
