@@ -25,34 +25,38 @@ const NAV_SECTIONS: (
         href: "/docs/ontology",
       },
       {
-        title: "The PIC Manifesto",
+        title: "Manifesto",
         href: "/docs/ontology/manifest",
       },
       {
-        title: "The Formal Model",
+        title: "Formal Model",
         href: "/docs/ontology/formal-model",
       },
     ],
   },
   {
-    title: "Specification",
+    title: "Spec & Protocol",
     links: [
       {
-        title: "Spec",
+        title: "Specification",
         href: "/docs/specification",
-      }
-    ],
-  },
+      },
   {
-    title: "Protocol & Code",
-    links: [
-      {
         title: "Protocol",
         href: "/docs/protocol",
       },
+    ],
+  },
+  {
+    title: "Implementation",
+    links: [
       {
         title: "Code",
         href: "/docs/code",
+      },
+            {
+        title: "Prototyping",
+        href: "https://github.com/pic-protocol/pic-prototyping",
       }
     ],
   },
