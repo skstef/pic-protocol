@@ -29,6 +29,10 @@
   width: 100%;
 }
 
+.docs-wrapper .navbar {
+  max-width: 100%;
+}
+
 .navbar__items {
   display: flex;
 }
@@ -37,9 +41,12 @@
   margin-right: auto;
 }
 
-.navbar__link:last-child {
-  margin-left: 25px;
+.theme-layout-navbar-left > .navbar__link:last-child {
   margin-right: auto;
+}
+
+.theme-layout-navbar-right {
+  margin-left: -92px;
 }
 
 .navbar--fixed-top {
