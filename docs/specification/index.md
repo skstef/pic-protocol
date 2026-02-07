@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
-## PIC Specification
+# PIC Specification
 
 The **PIC Specification** defines the generic, implementation-independent rules and invariants that underlie all PIC Protocols.
 
@@ -20,12 +20,11 @@ Protocol families and concrete implementations are derived from
 this specification by adding domain-specific realizations on top
 of these abstract obligations.
 
-### Current Releases
+## Current Releases
 
 | Version | Status           | Description                             | Reference                                                                                |
 |---------|------------------|-----------------------------------------|------------------------------------------------------------------------------------------|
 | 0.1     | *Draft*          | Initial generic specification draft     | [pic-spec 0.1](https://github.com/pic-protocol/pic-spec/blob/main/draft/0.1/pic-spec.md) |
-
 
 **Note:** The current release (0.1) is a **draft specification**.
 
@@ -40,7 +39,7 @@ Readers should expect:
 
 Future versions will reflect community feedback, experimental findings, and integration experience from emerging PIC Protocol families.
 
-### Role of the Specification
+## Role of the Specification
 
 The PIC Specification exists to:
 
@@ -59,7 +58,7 @@ It does **not**:
 
 These aspects are delegated to the protocol families built on top of the specification.
 
-### Conformance to the Specification
+## Conformance to the Specification
 
 A protocol or implementation MAY claim PIC compliance only if it meets the following requirements:
 

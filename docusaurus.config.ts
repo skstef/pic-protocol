@@ -86,13 +86,13 @@ const config: Config = {
         },
         {
           position: "left",
-          label: "Protocol",
-          to: "/docs/protocol",
+          label: "Specification",
+          to: "/docs/specification",
         },
         {
           position: "left",
-          label: "Spec",
-          to: "/docs/spec",
+          label: "Protocol",
+          to: "/docs/protocol",
         },
         {
           position: "left",

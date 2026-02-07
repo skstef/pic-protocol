@@ -18,20 +18,51 @@ const NAV_SECTIONS: (
     }
 )[] = [
   {
-    title: "Useful Links",
+    title: "Ontology",
+    links: [
+      {
+        title: "Ontology",
+        href: "/docs/ontology",
+      },
+      {
+        title: "The PIC Manifesto",
+        href: "/docs/ontology/manifest",
+      },
+      {
+        title: "The Formal Model",
+        href: "/docs/ontology/formal-model",
+      },
+    ],
+  },
+  {
+    title: "Specification",
+    links: [
+      {
+        title: "Spec",
+        href: "/docs/spec",
+      }
+    ],
+  },
+  {
+    title: "Protocol & Code",
     links: [
       {
         title: "Protocol",
-        href: "/docs/ontology",
+        href: "/docs/protocol",
       },
       {
-        title: "Spec",
-        href: "/docs/ontology",
-      },
+        title: "Code",
+        href: "/docs/code",
+      }
+    ],
+  },
+  {
+    title: "Useful Resources",
+    links: [
       {
         title: "Blog",
-        href: "/docs/ontology",
-      },
+        href: "/blog",
+      }
     ],
   },
 ];
