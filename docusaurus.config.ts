@@ -94,6 +94,11 @@ const config: Config = {
           label: "Spec",
           to: "/docs/spec",
         },
+        {
+          position: "left",
+          label: "Code",
+          to: "/docs/code",
+        },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/pic-protocol",
