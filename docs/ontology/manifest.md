@@ -9,9 +9,9 @@ sidebar_position: 2
 ```text
   CREATE AUTHORITY                          CARRY AUTHORITY
                                                        
-  Human ────┐                               p_0 --> E_1 --> E_2 --> E_3
-  Agent ─────|--> p_0, ops_0        ops_0 ⊇ ops_1 ⊇ ops_2 ⊇ ops_3
-  Workload ───┘                    
+  Human  ────┐                               p_0 --> E_1 --> E_2 --> E_3
+  AI Agent ────|─> p_0, ops_0       ops_0 ⊇ ops_1 ⊇ ops_2 ⊇ ops_3
+  Workload  ───┘                    
                                 
   Identity required.                                 Identity not required.
   Someone must own the intent.          Executors prove characteristics.
