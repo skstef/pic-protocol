@@ -26,7 +26,7 @@ const NAV_SECTIONS: (
       },
       {
         title: "Manifesto",
-        href: "/ontology/manifest",
+        href: "/ontology/manifesto",
       },
       {
         title: "Formal Model",
