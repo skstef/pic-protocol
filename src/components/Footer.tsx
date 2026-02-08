@@ -22,15 +22,15 @@ const NAV_SECTIONS: (
     links: [
       {
         title: "Ontology",
-        href: "/docs/ontology",
+        href: "/ontology",
       },
       {
         title: "Manifesto",
-        href: "/docs/ontology/manifest",
+        href: "/ontology/manifest",
       },
       {
         title: "Formal Model",
-        href: "/docs/ontology/formal-model",
+        href: "/ontology/formal-model",
       },
     ],
   },
@@ -39,11 +39,11 @@ const NAV_SECTIONS: (
     links: [
       {
         title: "Specification",
-        href: "/docs/specification",
+        href: "/specification",
       },
   {
         title: "Protocol",
-        href: "/docs/protocol",
+        href: "/protocol",
       },
     ],
   },
@@ -52,7 +52,7 @@ const NAV_SECTIONS: (
     links: [
       {
         title: "Code",
-        href: "/docs/code",
+        href: "/code",
       },
             {
         title: "Prototyping",

@@ -39,13 +39,11 @@ const config: Config = {
     [
       "classic",
       {
-        docs: {
-          sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/pic-protocol/pic-protocol/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // We disable the preset docs plugin and register multiple docs
+        // instances below to get clean top-level routes like:
+        // /ontology, /specification, /protocol, /code
+        // (instead of the default /docs/...)
+        docs: false,
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -82,22 +80,22 @@ const config: Config = {
         {
           position: "left",
           label: "Ontology",
-          to: "/docs/ontology",
+          to: "/ontology",
         },
         {
           position: "left",
           label: "Specification",
-          to: "/docs/specification",
+          to: "/specification",
         },
         {
           position: "left",
           label: "Protocol",
-          to: "/docs/protocol",
+          to: "/protocol",
         },
         {
           position: "left",
           label: "Code",
-          to: "/docs/code",
+          to: "/code",
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
@@ -114,7 +112,45 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-  plugins: ["./src/plugins/tailwind-config.js"],
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "ontology",
+        path: "docs/ontology",
+        routeBasePath: "ontology",
+        sidebarPath: "./sidebars-ontology.ts",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "specification",
+        path: "docs/specification",
+        routeBasePath: "specification",
+        sidebarPath: "./sidebars-specification.ts",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "protocol",
+        path: "docs/protocol",
+        routeBasePath: "protocol",
+        sidebarPath: "./sidebars-protocol.ts",
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "code",
+        path: "docs/code",
+        routeBasePath: "code",
+        sidebarPath: "./sidebars-code.ts",
+      },
+    ],
+    "./src/plugins/tailwind-config.js",
+  ],
 };
 
 export default config;
