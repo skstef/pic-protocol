@@ -3,7 +3,6 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import { HeroSection } from "../components/HeroSection";
 import { TrioSection } from "../components/TrioSection";
-import { Footer } from "../components/Footer";
 import { SlackSection } from "../components/SlackSection";
 
 export default function Home(): ReactNode {
@@ -16,7 +15,6 @@ export default function Home(): ReactNode {
       <HeroSection />
       <TrioSection />
       <SlackSection />
-      <Footer />
     </Layout>
   );
 }
