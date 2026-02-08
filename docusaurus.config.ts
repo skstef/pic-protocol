@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://pic-protocol.org",
+  url: "https://www.pic-protocol.org",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -113,3 +113,7 @@ const config: Config = {
 };
 
 export default config;
+
+
+
+https://pic-protocol.org/img/social-card.jpg
